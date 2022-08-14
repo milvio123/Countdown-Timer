@@ -1,0 +1,28 @@
+div.secondbox {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.minutebox {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #73AD21;
+  }
+  
+
+  div.hourbox {
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #73AD21;
+  }
+  

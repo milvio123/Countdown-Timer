@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Timer.js"></script>
+    <link rel="stylesheet" href="Timer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="Submit" class="btn btn-outline-primary" onclick="getInput()"> Submit</button>
+    <button type="button" id="Start" class="btn btn-outline-primary" onclick="myVar = setInterval(startCountdown, 1000)" >Start</button>
+    <button type="button" id="Stop" class="btn btn-outline-primary" onclick="clearInterval(myVar)">Stop</button>
+    <div id = "hourinputbox" class="input-group">
+        <span class="input-group-text">@</span>
+        <input id = "Hour" type="text" class="form-control" placeholder="Hour">
+      </div>
+
+      <div id = "minuteinputbox" class="input-group">
+        <span class="input-group-text">@</span>
+        <input id = "Minute" type="text" class="form-control" placeholder="Minute">
+      </div>
+
+      <div id = "secondinputbox" class="input-group">
+        <span class="input-group-text">@</span>
+        <input id = "Second" type="text" class="form-control" placeholder="Second">
+      </div>
+    
+      
+      Hours<input id = "hourbox" class="form-control" type="text" placeholder="Hours" readonly>
+      Minutes<input id = "minutebox"class="form-control" type="text" placeholder="Minutes" readonly>
+      Seconds<input id = "secondbox" class="form-control" type="text" placeholder="Seconds"  readonly>
+
+
+</body>
+</html>
