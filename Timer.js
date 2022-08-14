@@ -5,6 +5,12 @@ function getInput() {
     hourVal = document.getElementById("Hour").value
     minuteVal = document.getElementById("Minute").value
     secondVal = document.getElementById("Second").value
+    if(minuteVal>=60) {
+        alert("The number of minutes should be less than 60. Please enter a new number.")
+    }
+    if (secondVal>=60) {
+        alert("The number of seconds should be less than 60. Please enter a new number.")
+    }
 }
 
 
